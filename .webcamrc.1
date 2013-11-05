@@ -1,0 +1,31 @@
+[grab]
+  device = /dev/video0
+  driver = libv4l
+  text = %Y-%m-%d %H:%M:%S
+  fg_red = 255
+  fg_green = 255
+  fg_blue = 255
+  width = 320
+  height = 240
+  delay = 5
+  wait = 0
+  rotate = 0
+  top = 0
+  left = 0
+  bottom = -1
+  right = -1
+  quality = 100
+  trigger = 100
+  once = 0
+  archive = /home/username/webcam/1/%Y/%m/%d/cam1-%Y-%m-%d-%H:%M:%S.jpg
+[ftp]
+  host = your.server.com
+  user = your-username
+  dir  = /home/username/web/public/cam/1
+  file = capture.jpg
+  tmp  = temp1.jpg
+  passive = 1
+  debug = 3
+  auto = 0
+  local = 0
+  ssh = 1

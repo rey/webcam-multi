@@ -1,0 +1,4 @@
+# Create a new window called `CAM1` and start the `webcam` process using the `.webcamrc.1` config file
+screen -t "CAM1" sh -c "cd ~/ && webcam .webcamrc.1"
+# Create a new window called `CAM2` and start the `webcam` process using the `.webcamrc.2` config file
+screen -t "CAM2" sh -c "cd ~/ && webcam .webcamrc.2"
